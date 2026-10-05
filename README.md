@@ -1,11 +1,19 @@
-# RhythmClient 🎸
+<p align="center">
+  <img src="docs/images/banner.jpg" alt="RhythmClient Banner" width="450" style="border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.5);" />
+</p>
 
-[![GitHub Release](https://img.shields.io/github/v/release/abf524/RhythmClient?color=10b981&label=Release)](https://github.com/abf524/RhythmClient/releases)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20(x64)-blue.svg)](https://github.com/abf524/RhythmClient/releases)
-[![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
-[![Built with Electron](https://img.shields.io/badge/Built%20with-Electron%20%2B%20React-61dafb.svg)](https://www.electronjs.org/)
+<h1 align="center">RhythmClient 🎸</h1>
 
-**RhythmClient** is a modern desktop client inspired by Bridge to browse, search, and bulk-download song charts directly from [RhythmVerse](https://rhythmverse.co) without hassle.
+<p align="center">
+  <a href="https://github.com/abf524/RhythmClient/releases"><img src="https://img.shields.io/github/v/release/abf524/RhythmClient?color=10b981&label=Release" alt="GitHub Release"></a>
+  <a href="https://github.com/abf524/RhythmClient/releases"><img src="https://img.shields.io/badge/Platform-Windows%20(x64)-blue.svg" alt="Platform"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-purple.svg" alt="License"></a>
+  <a href="https://www.electronjs.org/"><img src="https://img.shields.io/badge/Built%20with-Electron%20%2B%20React-61dafb.svg" alt="Built with Electron"></a>
+</p>
+
+<p align="center">
+  <strong>A modern, responsive desktop client inspired by Bridge to browse, search, and bulk-download song charts directly from <a href="https://rhythmverse.co">RhythmVerse</a>.</strong>
+</p>
 
 ---
 
@@ -13,7 +21,25 @@
 
 Grab the latest standalone portable `.exe` from the **[Releases](https://github.com/abf524/RhythmClient/releases)** tab:
 
-- 📦 **[Download RhythmClient v1.0.0 (.exe)](https://github.com/abf524/RhythmClient/releases/latest)** *(No installer required — download and run directly!)*
+- 📦 **[Download RhythmClient v1.0.0 Portable (.exe)](https://github.com/abf524/RhythmClient/releases/latest)** *(No installation required — download and run directly!)*
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="docs/images/screenshot-main.png" alt="RhythmClient Main Interface" width="100%" style="border-radius: 8px;" />
+  <br>
+  <em>Main Browser: Split-view table with album art, instrument difficulties, game format badges, and charter profile icons.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/images/screenshot-filter.png" alt="Advanced Search and Charter Filters" width="100%" style="border-radius: 8px;" />
+  <br>
+  <em>Advanced Filters: Query specifically by Game Format, Genre, Charter/Creator, and Release Year with dynamic identity resolution.</em>
+</p>
 
 ---
 
@@ -28,7 +54,7 @@ Grab the latest standalone portable `.exe` from the **[Releases](https://github.
   - Filter by **Difficulty** (Warmup to Nightmare).
   - Filter by **Genre**, **Year**, and **Charter Name**.
   - Intelligent charter alias and display name resolution.
-- **📊 Table Sorting**:
+- **📊 Multi-Column Table Sorting**:
   - Multi-column sort by Song Title (A–Z / Z–A), Artist, Charter, Year, or Upload Date.
 - **💾 Authentic Single & Bulk Downloads**:
   - One-click downloads that retain authentic chart filenames and formats (`.zip`, `.rar`, Xbox `CON` / `_rb3con` packages).
